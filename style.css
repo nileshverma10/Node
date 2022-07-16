@@ -1,0 +1,65 @@
+body{
+    background-color: antiquewhite;
+}
+
+.topbar{
+    font-size: 25px;
+    font-weight:bold ;
+}
+
+.wax{
+    border-width: 3px;
+}
+
+.max{
+    margin-top: 5px;
+    /* border: 2px solid red; */
+    /* width: 500px; */
+    height: 300px;
+    margin-left: 20px;
+}
+
+
+.ftt{
+    /* border: 2px solid green; */
+    width: 500px;
+    height: 300px;
+    float: right;
+    /* margin-left: 500px; */
+    padding-right: 210px;
+   
+
+}
+
+/* .ttt{
+    border: 2px solid blue;
+    width: 400px;
+    height: 400px;
+    float: right;
+} */
+
+.bass{
+    margin-top: 25px;
+    margin-left: 330px;
+    border-radius: 120px;
+}
+
+.rox{
+    margin-left: 55px;
+}
+
+.chess{
+    margin-left: 55px;
+}
+
+.tag{
+    border-width: 3px;
+}
+
+.tae{
+    margin-left: 80px;
+}
+
+.stt{
+    margin-left: 80px;
+}
