@@ -1,0 +1,10 @@
+const express = require("express")
+const router = express.Router()
+const collectdata = require("../controller/api")
+ router.post("/register",collectdata.register)
+ router.get("/getdata",collectdata.getdata)
+ router.delete("/deletedata/:id",collectdata.deletedata)
+ router.post("/updatepassword/:id",collectdata.updatePassword)
+ router.get("/email/",collectdata.getemail)
+ router.post("/changePassword/:id",collectdata.changePassword)
+ module.exports = router 
